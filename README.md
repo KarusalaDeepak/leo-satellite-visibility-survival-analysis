@@ -1,6 +1,9 @@
-# LEO Satellite Visibility Windows Using Survival Analysis
+# Risk-Aware LEO Satellite Visibility Windows Using Survival Analysis
 
-This repository contains the code for evaluating risk-aware LEO satellite visibility windows using survival analysis, based on real Starlink TLE data. It computes visibility metrics, performs sensitivity analysis, and generates plots.
+Code for the paper: "Risk-Aware Evaluation of LEO Satellite Visibility Windows Using Survival Analysis"
+
+## Overview
+This repository implements a survival-analysis framework to evaluate usable visibility windows for Starlink-like LEO satellites, accounting for geometric, handover, and atmospheric hazards. It computes Expected Usable Service Time (EUST), risk-adjusted utility, and performs sensitivity analysis.
 
 ## Dependencies
 - Python 3.12+
